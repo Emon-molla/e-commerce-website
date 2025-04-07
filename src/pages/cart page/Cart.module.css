@@ -1,0 +1,68 @@
+.cartAllItems{
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.cartItemHeader{
+    background-color: #f4f4f4;
+}
+
+.cartItemBody input{
+    width: 50px;
+}
+.summry{
+    background-color: #fff;
+}
+
+.summry button{
+    background-color: #27ae60;
+    color: #fff;
+    border: 0;
+}
+
+.totalProductBox{
+    background-color:#f4f4f4 ;
+}
+
+.Btn1{
+    border: 0;
+    background-color: transparent;
+    color: #e74c3c;
+    font-size: 17px;
+}
+.Btn1 a{
+    color: #e74c3c;
+    text-decoration: none;
+}
+.Btn2{
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 5px 8px;
+    border: 0;
+    border-radius: 5px;
+}
+.Btn2 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+@media(max-width:999px){
+    .cartAllItems{
+        margin-bottom: 30px;
+    }
+    
+}
+@media(max-width:600px){
+    .cartItemHeader p{
+        font-size: 10px;
+    }
+
+    .cartItemBody p{
+        font-size: 10px;
+    }
+}
+@media(max-width:390px){
+    .cartItemHeader p{
+        font-size: 8px;
+    }
+}

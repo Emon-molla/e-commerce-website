@@ -1,0 +1,17 @@
+
+/* footer section css  */
+
+footer{
+    background-color: #27ae60;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.footerListContainer p{
+    margin-bottom: 0;
+}
+
+.footerList ul{
+    list-style: none;
+    padding-left: 0;
+}

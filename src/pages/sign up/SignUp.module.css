@@ -1,0 +1,39 @@
+.formContainer{
+    background-color: #fff;
+    margin: 50px auto;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+.formContainer form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formBox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formBox input{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline-color: #ccc;
+}
+
+.formContainer button{
+    background-color: #d33c00;
+    color: #fff;
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.formContainer span a{
+    color: #000;
+    text-decoration: none;
+}

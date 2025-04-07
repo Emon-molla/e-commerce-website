@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "title": "Starry SKy t shirt",
+        "price": 590,
+        "img": " https://metalhutbd.com/public/images/product/image/174125697396968bb423a6-e795-4a08-b761-ec40a55f43f1.jpeg",
+        "realprice": 690,
+        "discount": 32
+    },
+    {
+        "id": "2",
+        "title": "2 piecrs SKY",
+        "price": 890,
+        "img": " https://metalhutbd.com/public/images/product/image/174125697396968bb423a6-e795-4a08-b761-ec40a55f43f1.jpeg",
+        "realprice": 1180,
+        "discount": 25
+    },
+    {
+        "id": "3",
+        "title": "Premium2 pieces",
+        "price": 890,
+        "img": " https://metalhutbd.com/public/images/product/image/17415433352534inbound5932751213932883884.jpg",
+        "realprice": 1180,
+        "discount": 0
+    },
+    {
+        "id": "4",
+        "title": "New arrival 2 pieces",
+        "price": 890,
+        "img": "https://metalhutbd.com/public/images/product/image/17423142472390inbound4325062296483440914.jpg",
+        "realprice": 990 ,
+        "discount": 10
+    },
+    {
+        "id": "5",
+        "title": "Balmain 2 pieces",
+        "price": 890,
+        "img": "https://metalhutbd.com/public/images/product/image/17424597107993inbound723019756284166356.jpg",
+        "realprice": 1100 ,
+        "discount": 25
+    }
+]

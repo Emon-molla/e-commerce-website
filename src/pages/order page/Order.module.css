@@ -1,0 +1,62 @@
+.orderForm{
+    background-color: #fff;
+}
+
+.orderPlace{
+    background-color: #fff;
+}
+
+.orderFormHeader{
+    background-color: #27ae60;
+    color: #fff;
+}
+
+.orderFormBox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.orderFormBox input{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline-color: #27ae60;
+}
+
+.orderFormBox select{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline-color: #27ae60;
+}
+
+.orderForm button{
+    background-color: #27ae60;
+    color: #ffff;
+    border: 0;
+    padding: 5px 10px;
+    margin: 10px auto;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.orderPlaceBox{
+    background-color: #faf8f8;
+}
+
+.orderQuantityBox input{
+    width: 40px;
+}
+
+@media (max-width:999px){
+    .orderFormHeader h4{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:999px){
+    .orderPlace{
+        margin-top: 50px;
+    }
+}

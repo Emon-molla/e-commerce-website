@@ -1,0 +1,127 @@
+/* header last css  */
+.headerLast{
+    background-color: #27ae60;
+    color: #fff;
+}
+
+.headerLast ul{
+    list-style: none;
+}
+
+.headerLast ul li{
+    cursor: pointer;
+}
+
+.cateBox{
+    background-color: red;
+    color: #fff;
+}
+
+
+@media(max-width:995px){
+    .headerLast{
+        display: none;
+    }
+
+}
+
+
+/* hero section css  */
+
+.heroCate ul{
+    list-style: none;
+    cursor: pointer;
+}
+
+.heroCate p:hover{
+    color: #e74c3c;
+}
+
+.heroCateContainer{
+    background-color: #fff;
+}
+
+.heroCate{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    position: relative;
+}
+
+
+.dropDown{
+    list-style: none;
+    background-color: #fff;
+    padding: 10px;
+    position: absolute;
+    position: absolute;
+    right: -111px;
+    top: 0;
+    z-index: 100;
+    cursor: pointer;
+    display: none;
+}
+.dropDown li:hover{
+    color: #e74c3c;
+}
+.heroCate:hover .dropDown{
+    display: block;
+}
+
+
+@media(max-width:995px){
+    .heroCateContainer{
+        display: none;
+    }
+}
+
+
+/* feature Product Section css  */
+
+.featureProductConatiner{
+    background-color: #fff;
+}
+
+.featureProductHeader button{
+    border: 0;
+    background-color: #27ae60;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.featureProductHeader button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.border{
+    border: 1px solid #27ae60;
+}
+
+
+
+/* mens Product Section css  */
+
+.mensProductConatiner{
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+.mensProductHeader button{
+    border: 0;
+    background-color: #27ae60;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.mensProductHeader button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.border{
+    border: 1px solid #27ae60;
+}
+

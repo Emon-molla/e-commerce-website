@@ -1,0 +1,42 @@
+/* singleProduct css  */
+
+.singleProductContainer{
+    background-color: #fff;
+}
+
+.quantityBox p{
+    background-color: #2980b9;
+    color: #fff;
+}
+
+.quantityBox input{
+    width: 50px;
+}
+
+.addCartBtn button{
+    border: 0;
+    background-color: #27ae60;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.callBtn button{
+    background-color: #27ae60;
+    color: #fff;
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+
+/* revAndDes section css  */
+
+.revAndDes{
+    background-color: #fff;
+}
+
+.revAndDesHeader{
+    border-bottom: 1px solid #ccc;
+    width: 200px;
+}

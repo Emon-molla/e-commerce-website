@@ -1,0 +1,140 @@
+/* header top css  */
+
+.headerTopContainer p{
+    cursor: pointer;
+}
+
+.headerTopContainer p:hover{
+    color: #e74c3c;
+    transition: 0.3s ease-in;
+}
+.searchIcon2{
+    display: none;
+}
+
+@media(max-width:995px){
+    .headerTopContainer{
+        display: none;
+    }
+
+    .searchIcon2{
+        display: block;
+    }
+
+    .heartIcon{
+        display: none;
+    }
+
+}
+
+
+/* header mid css  */
+
+.headerMid{
+    background-color: #fff;
+}
+
+.headerSearchBox{
+    width: 100%;
+    max-width: 600px;
+}
+
+.headerSearchBox input{
+    width: 100%;
+    outline: 0;
+    border: 1px solid #ccc;
+    padding: 6px;
+    border-radius: 5px 0 0 5px;
+}
+
+.searchIcon{
+    background-color: #27ae60;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 0px 5px 5px 0;
+    cursor: pointer;
+    transition: 0.2 ease-out;
+}
+
+.searchIcon:hover{
+    background-color: #2ecc71;
+    color: #cdcd;
+    transition: 0.2 ease-out;
+}
+
+.headerCartHeart{
+    color: #27ae60;
+    cursor: pointer;
+}
+
+.headerCartHeart{
+    position: relative;
+}
+
+
+/* header bottom  */
+
+.headerBottom{
+    display: none;
+    background-color: #27ae60;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.headerBottomBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headerBottomBox a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.extraSearch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.extraSearch input{
+    border: 1px solid #ccc;
+    outline: 0;
+    padding: 2px;
+}
+
+.extraSearchBtn{
+    background-color: red;
+    color: #fff;
+    padding: 2px;
+}
+
+/* .headerBottomBox */
+
+@media(max-width:995px){
+    .searchIcon2{
+        display: block;
+    }
+
+    .heartIcon{
+        display: none;
+    }
+
+    .headerSearchBox{
+        display: none;
+    }
+
+    .headerBottom{
+        display: block;
+    }
+
+}
+
+

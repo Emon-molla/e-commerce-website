@@ -1,0 +1,23 @@
+.cartHeader{
+    background-color: #27ae60;
+    color: #fff;
+}
+
+.cartItemBox{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.cartNum{
+    background-color: #27ae60;
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    font-size: 13px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    position: absolute;
+    top: 1px;
+    right: -10px;
+}
